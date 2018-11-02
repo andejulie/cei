@@ -39,17 +39,17 @@
 				<div class="box">
 					<h3>Design</h3>
 					<hr>
-					<img src="./images/palette.svg" alt="design palette icon" />
+					<img src="./images/palette.svg" alt="Palette" />
 				</div>
 				<div class="box">
 					<h3>Develop</h3>
 					<hr>
-					<img src="./images/keyboard.svg" alt="development keyboard icon" />
+					<img src="./images/keyboard.svg" alt="Keyboard" />
 				</div>
 				<div class="box">
 					<h3>Dynamic</h3>
 					<hr>
-					<img src="./images/copy.svg" alt="dynamic copy icon" />
+					<img src="./images/copy.svg" alt="Copy" />
 				</div>
 			</article>
 			<article id="eitc">
@@ -94,18 +94,7 @@
 		</footer>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script>
-	if(navigator.userAgent.match(/Trident\/7\./)) { // if IE
-        $('body').on("mousewheel", function () {
-            // remove default behavior
-            event.preventDefault();
 
-            //scroll without smoothing
-            var wheelDelta = event.wheelDelta;
-            var currentScrollPosition = window.pageYOffset;
-            window.scrollTo(0, currentScrollPosition - wheelDelta);
-        });
-	}
-	</script>
+	<script src="js/scripts.js"></script>
   </body>
 </html>
